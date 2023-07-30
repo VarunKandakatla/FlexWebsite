@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-items:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.menuBar{
+    height: 60px;
+    background-color: aqua;
+    position: sticky;
+    top:0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+
+    
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    z-index: 10;
+}
+
+.white{
+    height: 400px;
+    padding : 10px;
+    margin: 0px;
+    border: 0px;
+
+    display: flex;
+}
+
+.blue{
+    height: 400px;
+    background-color: aqua;
+    padding : 10px;
+    margin: 0px;
+    border: 0px;
+
+    display: flex;
+}
+
+.odd{
+    height: 100%;
+    /* border: 2px solid hotpink; */
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.even{
+    height: 100%;
+    /* border: 2px solid red; */
+   
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#foot{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee{
+    color: red;
+    direction: left;
+}
+
+.markee{
+    width: 100%;
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    z-index: 1;
+}
+
+
+
+
+
+ 
